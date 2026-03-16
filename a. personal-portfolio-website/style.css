@@ -1,0 +1,54 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-blue: #155dfb;
+    --font-poppins: "Poppins", sans-serif;
+    --font-changa-one: "Changa One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-poppins);
+}
+
+/* Custom Class */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Start Navbar Section */
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.container .navbar .logo a {
+    font-family: var(--font-changa-one);
+    font-size: 3rem;
+    color: var(--color-blue);
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-links ul li a {
+    color: var(--color-black);
+    font-weight: 500;
+    transition: all ease .4s;
+}
+
+.nav-links ul li a:hover {
+    color: var(--color-blue);
+}
