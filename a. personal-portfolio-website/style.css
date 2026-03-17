@@ -147,7 +147,6 @@ img {
 
 .institutions-details {
     margin-top: 2rem;
-    /* background-color: red; */
 }
 
 .institutions-details .mid-institute {
@@ -163,7 +162,7 @@ img {
 }
 
 .institute:hover {
-    background-color: #155efb7a;
+    background-color: #155efb85;
 }
 
 .institute h6 {
@@ -180,6 +179,15 @@ img {
 .institute h5 {
     font-size: 1rem;
     font-weight: 400;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-top: 12rem;
+}
+
+.skills-section h1 {
+    text-align: center;
 }
 
 /* End Main Part */
