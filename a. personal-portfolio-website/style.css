@@ -228,4 +228,18 @@ img {
     margin: 50px 0 50px;
 }
 
+/* Project Section */
+.project-section {
+    margin-top: 200px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.projects-card img {
+    border-radius: 5px;
+}
+
 /* End Main Part */
