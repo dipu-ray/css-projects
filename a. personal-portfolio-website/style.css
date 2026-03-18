@@ -355,8 +355,8 @@ textarea {
 }
 
 .copyright-content p a {
-    color: var(--color-white);
-    font-weight: 500;
+    color: gold;
+    font-weight: 600;
     transition: all ease .4s;
 }
 
