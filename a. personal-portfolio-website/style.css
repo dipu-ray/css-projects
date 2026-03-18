@@ -127,15 +127,15 @@ img {
     align-items: center;
 }
 
-.about-section .about-right {
-    width: 50%;
-}
-
 .about-section .about-left {
     width: 50%;
 }
 
-.about-section .about-left .sp-about {
+.about-section .about-right {
+    width: 50%;
+}
+
+.about-section .about-right .sp-about {
     margin: 30px 0 40px;
 }
 
@@ -156,7 +156,7 @@ img {
 
 .institute {
     background-color: #155efb62;
-    padding: 50px 30px 35px;
+    padding: 50px 30px 42px;
     border-radius: 10px;
     width: 60%;
     transition: all ease .4s;
@@ -365,3 +365,158 @@ textarea {
 }
 
 /* End Footer Part */
+
+/* Responsive Design */
+/* Laptops and Desktops */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+
+    .skills-container .skills-content {
+        width: 900px;
+    }
+}
+
+/* Landscape Tablets */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 650px;
+    }
+
+    .logo a {
+        font-size: 2.5rem;
+    }
+
+    .nav-links ul li a {
+        font-size: .8rem;
+    }
+
+    .home-section .home-left .home-intro {
+        font-size: .6rem;
+    }
+
+    .home-section .home-left h1 {
+        font-size: 2rem;
+    }
+
+    .home-section .home-left p {
+        font-size: .8rem;
+        margin: 10px 0 20px;
+    }
+
+    .links {
+        padding: 8px 8px;
+        font-size: .6rem;
+    }
+
+    .about-section .about-right p {
+        font-size: .8rem;
+    }
+
+    .about-section .about-right .sp-about {
+        margin: 20px 0 30px;
+    }
+
+    .heading1 {
+        font-size: 1.8rem;
+    }
+
+    .institutions-details {
+        margin-top: 20px;
+    }
+
+    .institutions-details .mid-institute {
+        margin: 30px 0;
+    }
+
+    .institute {
+        background-color: #155efb62;
+        padding: 30px 30px 25px;
+        border-radius: 10px;
+        width: 80%;
+        transition: all ease .4s;
+    }
+
+    .institute h6 {
+        font-size: .6rem;
+        line-height: .2rem;
+    }
+
+    .institute h4 {
+        font-size: 1rem;
+    }
+
+    .institute h5 {
+        font-size: .8rem;
+    }
+
+    .skills-section {
+        margin-top: 150px;
+    }
+
+    .skills-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .skills-container .skills-content {
+        width: 650px;
+    }
+
+    .skills-container .skills-content .skills-card {
+        padding: 10px 20px;
+        font-size: .8rem;
+    }
+
+    .skills-container .skills-content .skills-card img {
+        width: .8rem;
+    }
+
+    .backend-skills {
+        margin: 20px 0 20px;
+    }
+
+    .project-section {
+        margin-top: 150px;
+    }
+
+    .projects-card {
+        flex: 1 1 calc(40%);
+    }
+
+    .contact-section .contact-container {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contact-form h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .contact-form form {
+        flex-direction: column;
+    }
+
+    .contact-form form input,
+    textarea {
+        width: 100%;
+    }
+
+    .contact-info .contact h4 {
+        font-size: 1rem;
+    }
+
+    .contact-info .contact span {
+        font-size: .8rem;
+    }
+
+    .copyright-content p {
+        font-size: .8rem;
+    }
+}
+
+/* Portrait Tablets and Large Phones */
+@media screen and (max-width: 768px) {
+    
+}
