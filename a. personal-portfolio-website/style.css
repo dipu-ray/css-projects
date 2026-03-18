@@ -256,6 +256,7 @@ img {
 .projects-card img:hover {
     transform: scale(1.04);
 }
+
 /* End Main Part */
 
 /* Start Footer Part */
@@ -264,20 +265,103 @@ img {
     text-align: center;
 }
 
+.contact-section .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+/* Contact Form */
 .contact-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.contact-form form input {
+.contact-form form input,
+textarea {
     padding: 10px;
     width: 20vw;
+    background-color: #e8f0fe;
+    color: #333;
+    border: 1px solid #ccc;
+    transition: all ease .4s;
 }
 
-.contact-form form textarea {
+.contact-form form button {
     padding: 10px;
-    width: 20vw;
+    background-color: #e8f0fe;
+    color: #333;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.contact-form form button:hover {
+    background-color: #ffffff;
+    border-color: #155dfb;
+    outline: none;
+}
+
+.contact-form form input:focus {
+    background-color: #ffffff;
+    border-color: #155dfb;
+    outline: none;
+}
+
+.contact-form form textarea:focus {
+    background-color: #ffffff;
+    border-color: #155dfb;
+    outline: none;
+}
+
+/* Contact Right Part */
+.contact-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info .contact {
+    padding: 20px;
+    border-radius: 5px;
+    transition: all ease .4s;
+}
+
+.contact-info .contact:hover {
+    box-shadow: 0 10px 20px 5px #0000002a;
+}
+
+.contact-info .contact h4 {
+    font-size: 1.2rem;
+}
+
+.contact-info .contact span {
+    color: var(--color-blue);
+}
+
+/* Copyright Container */
+.copyright-section {
+    text-align: center;
+    background-color: var(--color-blue);
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.copyright-content p {
+    color: var(--color-white);
+}
+
+.copyright-content p a {
+    color: var(--color-white);
+    font-weight: 500;
+    transition: all ease .4s;
+}
+
+.copyright-content p a:hover {
+    color: #ffffff78;
 }
 
 /* End Footer Part */
