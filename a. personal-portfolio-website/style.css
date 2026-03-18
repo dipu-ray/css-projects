@@ -366,6 +366,10 @@ textarea {
 
 /* End Footer Part */
 
+
+
+
+
 /* Responsive Design */
 /* Laptops and Desktops */
 @media screen and (max-width: 1200px) {
@@ -518,5 +522,102 @@ textarea {
 
 /* Portrait Tablets and Large Phones */
 @media screen and (max-width: 768px) {
-    
+    .container {
+        width: 500px;
+    }
+
+    .margin-top-bottom {
+        margin: 10px 0;
+    }
+
+    .header .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links ul {
+        gap: 1.5rem;
+    }
+
+    .home-section {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .home-section .home-left {
+        width: 100%;
+    }
+
+    .home-section .home-right {
+        width: 80%;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section .about-left {
+        display: none;
+    }
+
+    .about-section .about-right {
+        width: 100%;
+    }
+
+    .about-section .about-right .sp-about {
+        margin: 30px 0 40px;
+    }
+
+    .education-section {
+        margin-top: 120px;
+    }
+
+    .institute {
+        width: 100%;
+    }
+
+    .skills-section {
+        margin-top: 120px;
+    }
+
+    .skills-section h1 {
+        margin-bottom: 0;
+    }
+
+    .skills-container .skills-content {
+        width: 500px;
+        gap: 10px;
+    }
+
+    .project-section {
+        margin-top: 120px;
+    }
+
+    .projects-card {
+        flex: 1 1 calc(40%);
+    }
+
+    .contact-section {
+        margin-top: 120px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+
+    .skills-container .skills-content {
+        width: 300px;
+        gap: 10px;
+    }
+
+    .project-section {
+        margin-top: 120px;
+    }
+
+    .projects-card {
+        flex: 1 1 calc(50%);
+    }
 }
