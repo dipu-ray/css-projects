@@ -41,6 +41,7 @@ img {
 .header {
     position: sticky;
     top: 0;
+    z-index: 1000;
     background-color: var(--color-blue);
     padding: 15px 0;
 }
@@ -163,6 +164,7 @@ img {
 
 .institute:hover {
     background-color: #155efb85;
+    transform: scale(1.04);
 }
 
 .institute h6 {
@@ -201,7 +203,7 @@ img {
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 10px;
-    width: 70vw;
+    width: 1200px;
 }
 
 .skills-container .skills-content .skills-card {
@@ -218,6 +220,7 @@ img {
 
 .skills-container .skills-content .skills-card:hover {
     background-color: #155efb85;
+    transform: scale(1.05);
 }
 
 .skills-container .skills-content .skills-card img {
@@ -235,11 +238,46 @@ img {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    margin-top: 20px;
+}
+
+.projects-card {
+    flex: 1 1 calc(25%);
 }
 
 .projects-card img {
     border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    transition: all ease .4s;
 }
 
+.projects-card img:hover {
+    transform: scale(1.04);
+}
 /* End Main Part */
+
+/* Start Footer Part */
+/* Contact Section */
+.contact-section h1 {
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form form input {
+    padding: 10px;
+    width: 20vw;
+}
+
+.contact-form form textarea {
+    padding: 10px;
+    width: 20vw;
+}
+
+/* End Footer Part */
