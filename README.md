@@ -4,7 +4,7 @@ There I'll make lot's of **CSS Projects**. To make websites with HTML and CSS fo
 ## 📁 Project Structures
 ```
 ├── a.personal-portfolio-website/
-│   └── images/
+│   └── assets/
 │   └── index.html
 │   └── style.css
 ```
@@ -12,7 +12,8 @@ There I'll make lot's of **CSS Projects**. To make websites with HTML and CSS fo
 ## 🔧 Built With
 | Technology | Usage                         |
 |------------|-------------------------------|
-| HTML       | Structure and layout          |
+| HTML       | Structure and content         |
+| CSS        | Styling and layout            |
 
 ## 👨‍💻 Author
 **Dipu Ray**  
