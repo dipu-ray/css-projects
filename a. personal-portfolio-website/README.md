@@ -11,15 +11,21 @@ The purpose of this project is to develop my CSS coding skills better.
 ---
 
 ## ✨ Features
-- Pending...
+- All about yourself / myself.
+- Education section
+- Skills section
+- Projects section
+- Multiple cards
 
 ---
 
 ## 📂 Project Structure
 ```
 personal-portfolio-website/
-│── images/
-    └── abc.png
+│── assets/
+    └── icons/
+    └── images/
+    └── resume/
 │── index.html
 │── style.css
 
@@ -27,10 +33,13 @@ personal-portfolio-website/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="images" width="600" alt="Portfolio Screenshot">
+  <img src="./assets/screenshots/ss-1.png" width="600" alt="Portfolio Screenshot">
 </p>
 <p align="center">
-  <img src="images" width="600" alt="Portfolio Screenshot">
+  <img src="./assets/screenshots/ss-2.png" width="600" alt="Portfolio Screenshot">
+</p>
+<p align="center">
+  <img src="./assets/screenshots/ss-3.png" width="600" alt="Portfolio Screenshot">
 </p>
 
 ---
