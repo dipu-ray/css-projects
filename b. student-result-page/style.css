@@ -29,7 +29,6 @@ main {
     background-color: var(--color-3);
     color: var(--color-2);
     padding: 35px 45px;
-    border-radius: 3px;
 }
 
 .section-one .academy-name {
@@ -116,6 +115,7 @@ main {
     gap: 60px;
     text-align: center;
     padding: 30px 0;
+    border-bottom: 1px solid #0000003e;
 }
 
 .numeric-container h1 {
@@ -144,6 +144,7 @@ main {
     font-weight: 600;
     font-size: .72rem;
     color: #0000009c;
+    letter-spacing: .09rem;
 }
 
 .section-two .vertical-bar {
@@ -151,5 +152,32 @@ main {
     width: .8px;
     background-color: #0000003e;
 }
-
 /* End Section Two */
+
+/* Start Section Three */
+.section-three {
+    background-color: var(--color-1);
+}
+
+.perform-container {
+    padding: 40px 45px 30px 45px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.perform-container .left h2 {
+    font-size: .75rem;
+    text-transform: uppercase;
+    color: #000000a9;
+    font-family: var(--playfair-font);
+    letter-spacing: .15rem;
+}
+
+.perform-container .right {
+    width: 65%;
+    height: 1px;
+    background-color: #0000003b;
+}
+
+/* End Section Three */
