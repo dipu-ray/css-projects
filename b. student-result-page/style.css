@@ -20,9 +20,10 @@ body {
 main {
     width: 900px;
     margin: 30px auto;
+    box-shadow: 0 0 50px 0px #0000006e;
 }
 
-/* Section 1 */
+/* Start Section One */
 .section-one {
     font-family: var(--playfair-font);
     background-color: var(--color-3);
@@ -104,3 +105,51 @@ main {
 .std-info .sub-std-info p {
     font-size: .85rem;
 }
+/* End Section One */
+
+/* Start Section Two */
+.section-two {
+    background-color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.numeric-container h1 {
+    font-family: var(--playfair-font);
+}
+
+.numeric-container .marks {
+    color: #000000;
+}
+
+.numeric-container .percentage {
+    color: #008000;
+}
+
+.numeric-container .cls-rank {
+    color: #ae8213;
+}
+
+.numeric-container .gpa {
+    color: #cb4d37;
+}
+
+.numeric-container p {
+    font-family: var(--dm-sans-font);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .72rem;
+    color: #0000009c;
+}
+
+.section-two .vertical-bar {
+    height: 40px;
+    width: .8px;
+    background-color: #0000003e;
+}
+
+/* End Section Two */
