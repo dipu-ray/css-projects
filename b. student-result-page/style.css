@@ -206,16 +206,105 @@ main {
 
 .table-container table tr td {
     padding: 20px 0;
-    border-bottom: 2px solid #7c5d0f55;
+    border-bottom: 1px solid #00000020;
 }
 
 tr td:nth-child(1) {
-    /* background-color: red; */
+    font-family: var(--dm-sans-font);
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-td:first-child, th:first-child {
-    width: 300px; /* আপনার প্রয়োজনমতো পিক্সেল বা পারসেন্টেজ (%) দিন */
-    background-color: #f9f9f9; /* আলাদা বোঝানোর জন্য হালকা কালার দিতে পারেন */
+tr td:nth-child(2) {
+    font-family: var(--playfair-font);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00000060;
+}
+
+tr td:nth-child(3) {
+    font-family: var(--playfair-font);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+tr td:nth-child(4) {
+    font-family: var(--dm-sans-font);
+    font-size: .8rem;
+    font-weight: 900;
+    color: #00000060;
+}
+
+tr td:nth-child(5) {
+    font-family: var(--dm-sans-font);
+    font-size: .8rem;
+    font-weight: 900;
+}
+
+tr td:nth-child(6) {
+    font-family: var(--dm-sans-font);
+    font-size: .8rem;
+    font-weight: 900;
+    color: #008000;
+}
+
+/* Space at bottom */
+.section-three .space-bottom {
+    padding: 1px;
 }
 
 /* End Section Three */
+
+/* Start Section Four */
+.section-four {
+    background-color: var(--color-3);
+    color: #ffffff78;
+    font-family: var(--dm-sans-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.section-four .left p {
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+
+.section-four .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-four .right .result-btn {
+    text-decoration: none;
+    color: #ffffff78;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: all ease .5s;
+}
+
+.section-four .right .result-btn:hover {
+    color: #ffffffbd;
+}
+
+.section-four .right .passed-btn {
+    font-family: var(--playfair-font);
+    text-decoration: none;
+    color: var(--color-4);
+    border: 1px solid var(--color-4);
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all ease .5s;
+}
+
+.section-four .right .passed-btn:hover {
+    background-color: #daa52030
+}
+
+/* End Section Four */
