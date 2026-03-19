@@ -104,6 +104,7 @@ main {
 .std-info .sub-std-info p {
     font-size: .85rem;
 }
+
 /* End Section One */
 
 /* Start Section Two */
@@ -152,6 +153,7 @@ main {
     width: .8px;
     background-color: #0000003e;
 }
+
 /* End Section Two */
 
 /* Start Section Three */
@@ -159,6 +161,7 @@ main {
     background-color: var(--color-1);
 }
 
+/* Performance Container */
 .perform-container {
     padding: 40px 45px 30px 45px;
     display: flex;
@@ -178,6 +181,41 @@ main {
     width: 65%;
     height: 1px;
     background-color: #0000003b;
+}
+
+/* Table Container */
+.table-container {
+    margin: 0 50px 50px 50px;
+}
+
+.table-container table {
+    border-collapse: collapse;
+}
+
+.table-container table tr th {
+    font-family: var(--dm-sans-font);
+    text-transform: uppercase;
+    font-size: .72rem;
+    letter-spacing: .1rem;
+    color: #000000a9;
+    font-weight: 500;
+    padding: 0 70px 10px 0;
+    border-bottom: 2px solid #7c5d0f55;
+    text-align: left;
+}
+
+.table-container table tr td {
+    padding: 20px 0;
+    border-bottom: 2px solid #7c5d0f55;
+}
+
+tr td:nth-child(1) {
+    /* background-color: red; */
+}
+
+td:first-child, th:first-child {
+    width: 300px; /* আপনার প্রয়োজনমতো পিক্সেল বা পারসেন্টেজ (%) দিন */
+    background-color: #f9f9f9; /* আলাদা বোঝানোর জন্য হালকা কালার দিতে পারেন */
 }
 
 /* End Section Three */
