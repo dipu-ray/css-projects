@@ -1,16 +1,19 @@
 # 🌐 Personal Portfolio Website
+
 📅 Date: March 16, 2026  
-👨‍💻 Author: Dipu Ray  
+👨‍💻 Author: Dipu Ray
 
 ---
 
 ## 📌 Project Overview
+
 This is a personal portfolio website built using HTML and CSS.  
 The purpose of this project is to develop my CSS coding skills better.
 
 ---
 
 ## ✨ Features
+
 - All about yourself / myself.
 - Education section
 - Skills section
@@ -20,6 +23,7 @@ The purpose of this project is to develop my CSS coding skills better.
 ---
 
 ## 📂 Project Structure
+
 ```
 personal-portfolio-website/
 │── assets/
@@ -32,14 +36,18 @@ personal-portfolio-website/
 ```
 
 ## 📸 Screenshot
+
 <p align="center">
-  <img src="./assets/screenshots/ss-1.png" width="600" alt="Portfolio Screenshot">
+  <h4>1. Phone Screen:</h4>
+  <img src="./assets/screenshots/phone.png" width="300" alt="Portfolio project screenshot - Phone screen">
 </p>
 <p align="center">
-  <img src="./assets/screenshots/ss-2.png" width="600" alt="Portfolio Screenshot">
+  <h4>2. Tab Screen:</h4>
+  <img src="./assets/screenshots/tablet.png" width="400" alt="Portfolio project screenshot - Tab screen">
 </p>
 <p align="center">
-  <img src="./assets/screenshots/ss-3.png" width="600" alt="Portfolio Screenshot">
+  <h4>3. Laptop or Desktop Screen:</h4>
+  <img src="./assets/screenshots/laptop.png" width="600" alt="Portfolio project screenshot - Laptop or Desktop screen">
 </p>
 
 ---
