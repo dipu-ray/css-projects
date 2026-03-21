@@ -96,4 +96,57 @@ body {
 .link-bar {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+
+.link-bar a {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    transition: all ease .4s;
+}
+
+.link-bar a span {
+    font-size: 1.4rem;
+}
+
+.link-bar .search-icon:hover {
+    color: var(--primary-color);
+}
+
+.link-bar .dark-mode {
+    background-color: #1f1f1f;
+    padding: 4px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.link-bar .dark-mode span {
+    font-size: 1rem;
+}
+
+.link-bar .dark-mode .unactive {
+    background-color: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.link-bar .dark-mode .active {
+    background-color: var(--special-color);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.link-bar .buy-n {
+    background-color: #383838;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: .82rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: all ease .4s;
+}
+
+.link-bar .buy-n:hover {
+    background-color: var(--special-color);
 }
