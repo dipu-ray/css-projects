@@ -304,12 +304,12 @@ main {
     right: 15px;
 }
 
-.card .card-img .time a {
-    font-size: .75rem;
+.card .card-img .time span {
+    font-size: .7rem;
     color: var(--primary-color);
-    background-color: #2b2b2bc8;
+    background-color: #2b2b2bb4;
     font-weight: 600;
-    padding: 3px 6px;
+    padding: 3px 6px 4px 3px;
     border-radius: 20px;
 }
 
@@ -423,6 +423,14 @@ main {
 
 .featured-post .f-img .f-content h2 {
     font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.featured-post .f-img .f-content h2 a {
+    font-size: 1.3rem;
+    color: var(--primary-color);
 }
 
 .featured-post .f-img .f-content span a {
