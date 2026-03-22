@@ -286,7 +286,7 @@ main {
     color: var(--background-color);
     background-color: #ffffff97;
     font-size: .75rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: 3px 6px;
     border-radius: 20px;
     transition: all ease .4s;
