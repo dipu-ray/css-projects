@@ -26,7 +26,8 @@ body {
 }
 
 /* Start header section */
-.header, main {
+.header,
+main {
     background-color: var(--background-color);
 }
 
@@ -166,6 +167,7 @@ body {
 .header-content h1 span {
     color: var(--special-color);
 }
+
 /* End header section */
 
 /* Start main section */
@@ -179,20 +181,53 @@ main {
     background-color: #f2f2f211;
 }
 
+/* Topic bar */
 .topics-link {
     margin: 50px 0;
     display: flex;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
 }
 
 .topics-link div a {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
     color: var(--secondary-color);
     background-color: #383838;
-    padding: 5px 20px;
+    padding: 6px 12px;
     border-radius: 50px;
     font-size: .75rem;
     font-weight: 500;
 }
+
+/* Icons color */
+.topics-link div a .ai {
+    color: #c964d9;
+}
+
+.topics-link div a .crypto {
+    color: #52dea4;
+}
+
+.topics-link div a .digital {
+    color: #8564e8;
+}
+
+.topics-link div a .news {
+    color: #5d6af5;
+}
+
+.topics-link div a .rocket {
+    color: #e66acf;
+}
+
+.topics-link div a .tech {
+    color: #56afe3;
+}
+
+.topics-link div a .trends {
+    color: #f2862e;
+}
+
 /* End main section */
