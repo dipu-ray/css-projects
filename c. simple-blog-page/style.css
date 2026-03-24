@@ -442,4 +442,11 @@ main {
     color: var(--special-color);
 }
 
+/* Categories in aside bar */
+.categories {
+    background-color: var(--special-color2);
+    padding: 25px 30px;
+    border-radius: 20px;
+}
+
 /* End main section */
