@@ -442,11 +442,61 @@ main {
     color: var(--special-color);
 }
 
+/* Dot container in aside bar */
+.dot-container {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dot-container a {
+    color: var(--primary-color);
+}
+
+.dot-container a i {
+    font-size: .8rem;
+}
+
 /* Categories in aside bar */
 .categories {
     background-color: var(--special-color2);
     padding: 25px 30px;
     border-radius: 20px;
+    padding-bottom: 35px;
+}
+
+.categories span {
+    font-size: .76rem;
+    font-weight: 500;
+}
+
+.categories .ctg-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.categories .ctg-links a {
+    color: var(--secondary-color);
+    font-size: .82rem;
+}
+
+.categories .ctg-links a::before {
+    content: '→';
+    margin-left: -10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.categories .ctg-links a:hover::before {
+    margin-left: 8px;
+    margin-right: 10px;
+    opacity: 1;
+    color: var(--primary-color);
 }
 
 /* End main section */
