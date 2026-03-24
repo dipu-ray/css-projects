@@ -340,8 +340,8 @@ main {
     padding: 30px;
 }
 
-.profile span {
-    font-size: .75rem;
+.aside-header {
+    font-size: .79rem;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -396,9 +396,8 @@ main {
 }
 
 .featured-post span {
-    font-size: .78rem;
-    color: var(--primary-color);
     font-weight: 500;
+    color: var(--primary-color);
 }
 
 .featured-post .f-img {
@@ -442,7 +441,7 @@ main {
     color: var(--special-color);
 }
 
-/* Dot container in aside bar */
+/* Three dots in aside bar */
 .dot-container {
     margin-top: -10px;
     margin-bottom: 20px;
@@ -453,6 +452,11 @@ main {
 }
 
 .dot-container a {
+    color: var(--secondary-color);
+    transition: all ease .4s;
+}
+
+.dot-container a:hover {
     color: var(--primary-color);
 }
 
@@ -466,11 +470,6 @@ main {
     padding: 25px 30px;
     border-radius: 20px;
     padding-bottom: 35px;
-}
-
-.categories span {
-    font-size: .76rem;
-    font-weight: 500;
 }
 
 .categories .ctg-links {
@@ -489,7 +488,7 @@ main {
     content: '→';
     margin-left: -10px;
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all ease .4s;
 }
 
 .categories .ctg-links a:hover::before {
@@ -497,6 +496,14 @@ main {
     margin-right: 10px;
     opacity: 1;
     color: var(--primary-color);
+}
+
+/* Related articles in aside bar */
+.related-article {
+    background-color: var(--special-color2);
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 /* End main section */
