@@ -46,6 +46,10 @@ simple-blog-page/
   <h4>3. Laptop or Desktop Screen:</h4>
   <img src="./assets/screenshots/laptop.png" width="600" alt="Blog Page project screenshot - Laptop or Desktop screen">
 </p>
+<p align="center">
+  <h4>3. Laptop or Desktop Screen:</h4>
+  <img src="./assets/screenshots/laptop.png" width="600" alt="Blog Page project screenshot - Laptop or Desktop screen">
+</p>
 
 ---
 
