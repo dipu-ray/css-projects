@@ -50,8 +50,3 @@ simple-blog-page/
 ---
 
 ⭐ If you like this project, feel free to give it a star!
-⭐ If you like this project, feel free to give it a star!
-⭐ If you like this project, feel free to give it a star!
-⭐ If you like this project, feel free to give it a star!
-⭐ If you like this project, feel free to give it a star!
-⭐ If you like this project, feel free to give it a star
