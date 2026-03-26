@@ -328,6 +328,34 @@ main {
     margin: 15px 0 50px;
 }
 
+/* Pagination Link */
+.pagination-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 200%;
+}
+
+.active {
+    background-color: var(--special-color);
+}
+
+.pagination-container a {
+    color: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-weight: 600;
+    transition: all ease .4s;
+}
+
+.pagination-container a:hover {
+    background-color: var(--special-color);
+}
+
 /* Aside bar */
 .blog-container .aside-bar {
     width: 28%;
