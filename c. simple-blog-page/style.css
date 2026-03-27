@@ -326,6 +326,7 @@ main {
 
 .card h2 a {
     color: var(--primary-color);
+    font-size: 1.3rem;
 }
 
 .card span {
@@ -774,3 +775,86 @@ footer .padding {
 }
 
 /* End footer section */
+
+
+
+
+
+/* Responsive Design */
+/* Responsive for laptop size */
+@media screen and (max-width: 1400px) {
+    .navbar {
+        width: 1000px;
+    }
+
+    /* Main and footer container */
+    .container {
+        width: 1000px;
+    }
+
+    /* Main cards image size */
+    .card .card-img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Responsive for tablet size */
+@media screen and (max-width: 1050px) {
+    .navbar {
+        flex-direction: column;
+        gap: 30px;
+        width: 700px;
+    }
+
+    /* Header heading one container */
+    .header-content {
+        padding-top: 280px;
+        width: 700px;
+    }
+
+    /* Main and footer container */
+    .container {
+        width: 700px;
+    }
+
+    /* Topic links after header */
+    .topics-link {
+        flex-wrap: wrap;
+    }
+
+    /* Main container left cards */
+    .blog-container .card-container {
+        width: 55%;
+        grid-template-columns: 1fr;
+    }
+
+    .card .card-img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .blog-container .aside-bar {
+        width: 45%;
+    }
+
+    /* Top or first section in footer */
+    .top-container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .find-us-content p {
+        width: 100%;
+    }
+}
+
+/* Small tablet size */
+@media screen and (max-width: 768px) {
+    /* * {
+        background-color: red;
+    } */
+}
