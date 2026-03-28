@@ -885,8 +885,6 @@ footer .padding {
     /* Main container left cards */
     .blog-container .card-container {
         width: 100%;
-        grid-template-columns: 1fr;
-        background-color: red;
     }
 
     .card .card-img {
@@ -894,7 +892,16 @@ footer .padding {
         height: 300px;
     }
 
+    .card h2 a {
+        font-size: 1.4rem;
+    }
+
+    .pagination-container {
+        width: 100%;
+    }
+
+    /* Side bar */
     .blog-container .aside-bar {
-        width: 45%;
+        width: 100%;
     }
 }
