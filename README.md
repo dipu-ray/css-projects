@@ -11,6 +11,10 @@ There I'll make lot's of **CSS Projects**. To make websites with HTML and CSS fo
 │   └── assets/
 │   └── index.html
 │   └── style.css
+├── c. simple-blog-page/
+│   └── assets/
+│   └── index.html
+│   └── style.css
 ```
 
 ## 🔧 Built With
