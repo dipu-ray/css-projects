@@ -852,7 +852,7 @@ footer .padding {
     }
 }
 
-/* Small tablet size */
+/* Responsive for small tablet size */
 @media screen and (max-width: 768px) {
     .navbar {
         gap: 20px;
@@ -922,5 +922,80 @@ footer .padding {
 
     .middle-container .right {
         width: 100%;
+    }
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 500px) {
+    .navbar {
+        gap: 15px;
+        width: 300px;
+    }
+
+    .nav-links ul {
+        gap: 15px;
+    }
+
+    /* Navbar buy now button */
+    .link-bar .buy-n {
+        padding: 8px 16px;
+        font-size: .7rem;
+    }
+
+    /* Header heading one container */
+    .header-content {
+        width: 300px;
+    }
+
+    .header-content h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+
+    .header-content p {
+        font-size: .9rem;
+    }
+
+    /* Main and footer container */
+    .container {
+        width: 300px;
+    }
+
+    .card .card-img {
+        width: 300px;
+        height: 180px;
+    }
+
+    .card h2 {
+        line-height: 1.3rem;
+    }
+
+    .card h2 a {
+        font-size: 1.2rem;
+    }
+
+    /* Footer first section */
+    .subscribe-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .subscribe-content p {
+        font-size: .8rem;
+        margin-top: 5px;
+    }
+
+    .search-email {
+        width: 100%;
+    }
+
+    .search-email .input input {
+        padding: 20px 105px 20px 20px;
+    }
+
+    /* Middle container right part */
+    .middle-container .right {
+        flex-direction: column;
+        gap: 60px;
     }
 }
