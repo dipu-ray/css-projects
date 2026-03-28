@@ -904,4 +904,23 @@ footer .padding {
     .blog-container .aside-bar {
         width: 100%;
     }
+
+    /* Footer search section */
+    .search-email .input input {
+        padding: 20px 200px 20px 20px;
+        font-size: .8rem;
+    }
+
+    .middle-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .middle-container .left {
+        width: 100%;
+    }
+
+    .middle-container .right {
+        width: 100%;
+    }
 }
