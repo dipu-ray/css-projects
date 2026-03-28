@@ -854,7 +854,47 @@ footer .padding {
 
 /* Small tablet size */
 @media screen and (max-width: 768px) {
-    /* * {
+    .navbar {
+        gap: 20px;
+        width: 450px;
+    }
+
+    /* Header heading one container */
+    .header-content {
+        padding-top: 250px;
+        width: 450px;
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+    }
+
+    /* Main and footer container */
+    .container {
+        width: 450px;
+    }
+
+    .blog-container {
+        gap: 150px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    /* Main container left cards */
+    .blog-container .card-container {
+        width: 100%;
+        grid-template-columns: 1fr;
         background-color: red;
-    } */
+    }
+
+    .card .card-img {
+        width: 450px;
+        height: 300px;
+    }
+
+    .blog-container .aside-bar {
+        width: 45%;
+    }
 }
