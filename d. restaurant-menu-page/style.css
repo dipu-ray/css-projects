@@ -55,11 +55,17 @@ body {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(15px);
+    transform: translateY(50px);
     background-color: var(--white-color);
     width: 200px;
     padding: 15px 0 15px 40px;
     transition: all .3s ease;
+}
+
+.dropdown:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(20px);
 }
 
 .dropdown .submenu li a {
@@ -69,11 +75,6 @@ body {
 
 .dropdown .submenu li .top-l {
     margin-bottom: 15px;
-}
-
-.dropdown:hover .submenu {
-    opacity: 1;
-    visibility: visible;
 }
 
 /* Navbar right section */
