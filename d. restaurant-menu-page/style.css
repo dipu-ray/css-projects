@@ -10,3 +10,8 @@
     text-decoration: none;
     list-style-type: none;
 }
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
