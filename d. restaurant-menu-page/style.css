@@ -1,8 +1,10 @@
 :root {
     --white-color: #ffffff;
     --black-color: #000000;
+    --special-color: #db9a65;
     --bg-color-1: #1a0d01;
     --poppins: "Poppins", sans-serif;
+    --philosopher: "Philosopher", sans-serif;
 }
 
 * {
@@ -23,7 +25,8 @@ body {
     margin: 0 auto;
 }
 
-/* Start Navbar */
+/* Start Navbar Section */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -47,6 +50,7 @@ body {
 /* Navbar dropdown menu */
 .dropdown {
     position: relative;
+    z-index: 1000;
 }
 
 .dropdown .submenu {
@@ -95,4 +99,102 @@ body {
     background-color: var(--white-color);
 }
 
-/* End Navbar */
+/* End Navbar Section */
+
+/* Start Main Section */
+/* Heading section */
+.slider-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+/* Slider images container */
+.slider-container .slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    color: var(--white-color);
+}
+
+.slider-container .slider h1 {
+    font-family: var(--philosopher);
+    text-transform: capitalize;
+    font-size: 4rem;
+    width: 50%;
+}
+
+.slider-container .slider .v-btn {
+    background: var(--special-color);
+    color: var(--white-color);
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .3s ease;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.slider-container .slider .v-btn:hover {
+    background-color: #002246;
+}
+
+.slider-container .slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-container .slider .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/* Slider first image */
+.slider-container .slider .s1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/banner.png');
+    background-color: red;
+}
+
+/* Slider second image */
+.slider-container .slider .s2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/banner2.png');
+    background-color: blue;
+}
+
+/* Slider left and right button container */
+.slider-container .buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+.slider-container .buttons .btn {
+    background: #3e4b59;
+    color: white;
+    padding: 50px 15px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.slider-container .buttons .btn:hover {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+/* End Main Section */
