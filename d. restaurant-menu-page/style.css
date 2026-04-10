@@ -210,11 +210,33 @@ body {
 /* Natus section */
 .natus-section {
     background-color: #fffbf5;
+    position: relative;
 }
 
+/* To add background images */
+.natus-section .top-left-bg {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+
+.natus-section .bottom-left-bg {
+    position: absolute;
+    bottom: -120px;
+    left: 80px;
+}
+
+.natus-section .bottom-right-bg {
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+}
+
+/* Natus container */
 .natus-container {
     display: flex;
     gap: 70px;
+    padding-bottom: 280px;
 }
 
 /* Natus left container */
@@ -234,6 +256,43 @@ body {
 
 .natus-left p {
     color: var(--p-color);
+}
+
+/* Natus right container */
+.natus-right {
+    position: relative;
+}
+
+.natus-right img {
+    border-radius: 20px;
+}
+
+.absolute-image {
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
+}
+
+.absolute-image img {
+    border: 10px solid var(--white-color);
+}
+
+/* Mini container */
+.mini-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    color: var(--special-color);
+}
+
+.mini-container .mini-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mini-container .mini-content i {
+    font-size: 50px;
 }
 
 /* End Main Section */
