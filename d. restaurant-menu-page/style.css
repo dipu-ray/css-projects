@@ -31,8 +31,11 @@ body {
     padding: 160px 0;
 }
 
-/* Start Navbar Section */
+.center {
+    text-align: center;
+}
 
+/* Start Navbar Section */
 .navbar {
     display: flex;
     align-items: center;
@@ -108,10 +111,20 @@ body {
     height: 3px;
     background-color: var(--white-color);
 }
-
 /* End Navbar Section */
 
 /* Start Main Section */
+.section-heading {
+    font-size: 3.1rem;
+    font-weight: 500;
+    font-family: var(--philosopher);
+    color: var(--h1-color);
+}
+
+.section-p {
+    color: var(--p-color);
+}
+
 /* Heading slider section */
 .slider-container {
     width: 100%;
@@ -240,22 +253,11 @@ body {
 }
 
 /* Natus left container */
-.natus-left h1 {
-    font-size: 3.1rem;
-    font-weight: 500;
-    font-family: var(--philosopher);
-    color: var(--h1-color);
-}
-
 .natus-left .long-dash {
     width: 80px;
     height: 3px;
     background-color: var(--special-color);
     margin: 18px 0 50px;
-}
-
-.natus-left p {
-    color: var(--p-color);
 }
 
 /* Natus right container */
@@ -293,6 +295,30 @@ body {
 
 .mini-container .mini-content i {
     font-size: 50px;
+}
+
+/* Delicious food section */
+/* Food items */
+.food-items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.food-items h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--h1-color);
+}
+
+.food-items p {
+    color: var(--p-color);
+    margin: 10px 0;
+}
+
+.food-items span {
+    color: var(--special-color);
+    font-size: 1.6rem;
 }
 
 /* End Main Section */
