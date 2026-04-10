@@ -111,6 +111,7 @@ body {
     height: 3px;
     background-color: var(--white-color);
 }
+
 /* End Navbar Section */
 
 /* Start Main Section */
@@ -336,6 +337,64 @@ body {
 .food-items span {
     color: var(--special-color);
     font-size: 1.6rem;
+}
+
+/* Customer section */
+.customer-section {
+    background: linear-gradient(rgba(233, 233, 233, 0.6)), url('assets/background-images/bg.png') no-repeat scroll center / cover;
+}
+
+/* Customer heading part */
+.customer-heading-p h1 {
+    margin: 25px 0 70px;
+    font-family: var(--philosopher);
+    font-size: 3.2rem;
+}
+
+.customer-heading-p span {
+    color: var(--special-color);
+}
+
+/* Author container */
+.author {
+    display: flex;
+    gap: 30px;
+}
+
+.author-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.author-profile .description {
+    border: 3px solid var(--special-color);
+    border-radius: 12px;
+    background-color: var(--white-color);
+    color: var(--p-color);
+    font-size: 1.2rem;
+    padding: 50px 40px;
+}
+
+.mini-profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mini-profile h6 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mini-profile i {
+    color: var(--special-color);
+    font-size: .9rem;
+}
+
+/* Reservation section */
+.font-w {
+    font-weight: 600;
 }
 
 /* End Main Section */
