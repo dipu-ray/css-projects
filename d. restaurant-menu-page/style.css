@@ -298,11 +298,28 @@ body {
 }
 
 /* Delicious food section */
+/* Food list container */
+.food-list {
+    border-top: 1px solid #0000003a;
+    margin-top: 30px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
 /* Food items */
 .food-items {
     display: flex;
     gap: 30px;
     align-items: center;
+    cursor: pointer;
+    border-right: 0px solid var(--special-color);
+    transition: all ease .3s;
+}
+
+.food-items:hover {
+    border-right: 5px solid var(--special-color);
 }
 
 .food-items h4 {
