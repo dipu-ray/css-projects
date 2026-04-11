@@ -437,7 +437,8 @@ img {
     gap: 15px 30px;
 }
 
-.form-inputs .four-inputs input, select {
+.form-inputs .four-inputs input,
+select {
     outline: none;
     background-color: var(--special-color);
     color: var(--white-color);
@@ -454,7 +455,8 @@ img {
     margin-top: 15px;
 }
 
-.form-inputs .one-input input, select {
+.form-inputs .one-input input,
+select {
     width: 100%;
 }
 
@@ -475,6 +477,33 @@ img {
 
 .form-inputs .book-btn:hover {
     background-color: #c58753a8;
+}
+
+/* Address reservation container */
+.address-reserve {
+    display: flex;
+    gap: 30px;
+    color: var(--white-color);
+    margin-top: 30px;
+}
+
+.address-reserve .a-r-container {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.address-reserve .a-r-container i {
+    font-size: 2rem;
+}
+
+.address-reserve .a-r-container h4 {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.address-reserve .a-r-container p {
+    font-size: .9rem;
 }
 
 /* End Main Section */
