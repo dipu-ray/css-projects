@@ -40,6 +40,10 @@ img {
     text-align: center;
 }
 
+
+
+
+
 /* Start Navbar Section */
 .navbar {
     display: flex;
@@ -118,6 +122,10 @@ img {
 }
 
 /* End Navbar Section */
+
+
+
+
 
 /* Start Main Section */
 .section-heading {
@@ -254,11 +262,15 @@ img {
 /* Natus container */
 .natus-container {
     display: flex;
-    gap: 70px;
+    gap: 30px;
     padding-bottom: 280px;
 }
 
 /* Natus left container */
+.natus-left {
+    width: 50%;
+}
+
 .natus-left .long-dash {
     width: 80px;
     height: 3px;
@@ -269,20 +281,25 @@ img {
 /* Natus right container */
 .natus-right {
     position: relative;
+    width: 50%;
+    left: 100px;
 }
 
-.natus-right img {
+.natus-right .big-img {
+    width: 85%;
+    height: 95%;
     border-radius: 20px;
 }
 
 .absolute-image {
     position: absolute;
-    bottom: -100px;
+    bottom: -150px;
     left: -50px;
 }
 
-.absolute-image img {
+.absolute-image .small-img {
     border: 10px solid var(--white-color);
+    border-radius: 30px;
 }
 
 /* Mini container */
@@ -320,7 +337,7 @@ img {
     gap: 30px;
     align-items: center;
     cursor: pointer;
-    border-right: 0px solid var(--special-color);
+    border-right: 5px solid #ffffff00;
     transition: all ease .3s;
 }
 
@@ -398,6 +415,29 @@ img {
 }
 
 /* Reservation section */
+.reservation-section {
+    position: relative;
+}
+
+/* Add background images */
+.first-r-bg {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+
+.second-r-bg {
+    position: absolute;
+    bottom: -120px;
+    right: 80px;
+}
+
+.third-r-bg {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
 .font-w {
     font-weight: 600;
 }
@@ -507,3 +547,12 @@ select {
 }
 
 /* End Main Section */
+
+
+
+
+
+/* Start Footer Section */
+
+
+/* End Footer Section */
