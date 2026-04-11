@@ -553,6 +553,13 @@ select {
 
 
 /* Start Footer Section */
+.footer {
+    background-color: var(--bg-color-1);
+    color: var(--white-color);
+}
 
+.footer a, i {
+    color: var(--white-color);
+}
 
 /* End Footer Section */
