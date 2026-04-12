@@ -7,6 +7,7 @@
     --bg-color-1: #1a0d01;
     --poppins: "Poppins", sans-serif;
     --philosopher: "Philosopher", sans-serif;
+    --footer-p-color: #919191;
 }
 
 * {
@@ -318,6 +319,7 @@ img {
 
 .mini-container .mini-content i {
     font-size: 50px;
+    color: var(--special-color);
 }
 
 /* Delicious food section */
@@ -562,6 +564,153 @@ select {
 
 .footer a, i {
     color: var(--white-color);
+}
+
+footer p {
+    color: var(--footer-p-color);
+}
+
+/* Footer top section */
+.top-section {
+    display: flex;
+}
+
+.top-section h2 {
+    color: var(--special-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: var(--philosopher);
+}
+
+/* Left container */
+.left-container {
+    width: 33%;
+}
+
+.left-container .logo {
+    width: 35%;
+}
+
+.left-container .content {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+    width: 70%;
+    font-size: .9rem;
+    margin: 40px 0 50px;
+}
+
+.left-container .content a {
+    color: var(--footer-p-color);
+    transition: all ease .3s;
+}
+
+.left-container .content a:hover {
+    color: var(--special-color);
+}
+
+.left-container .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.left-container .icons i {
+    color: var(--footer-p-color);
+    transition: all ease .3s;
+}
+
+.left-container .icons i:hover {
+    color: var(--special-color);
+}
+
+/* Middle container */
+.middle-container {
+    width: 33%;
+}
+
+.middle-container .use-links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.middle-container .use-links a {
+    color: var(--footer-p-color);
+    font-size: .9rem;
+    transition: all ease .3s;
+}
+
+.middle-container .use-links a:hover {
+    color: var(--special-color);
+}
+
+/* Right container */
+.right-container {
+    width: 33%;
+}
+
+.right-container .input-btn {
+    margin: 40px 0 20px;
+    position: relative;
+}
+
+.right-container .input-btn input {
+    outline: none;
+    padding: 18px 20px 16px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    font-size: .98rem;
+}
+
+.right-container .input-btn input::placeholder {
+    color: var(--footer-p-color);
+    font-family: var(--poppins);
+}
+
+.right-container .input-btn .subs-btn {
+    background-color: var(--special-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: .9rem;
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all ease .3s;
+}
+
+.right-container .input-btn .subs-btn:hover {
+    background-color: #ba8050;
+}
+
+.right-container p {
+    font-size: .9rem;
+}
+
+/* Footer bottom section */
+.bottom-section {
+    padding-bottom: 30px;
+}
+
+/* Horizontal bar */
+.footer-hr-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff1f;
+}
+
+/* Copyright container */
+.copyright-container {
+    margin-top: 20px;
+    text-align: center;
+    font-size: .95rem;
+    color: var(--footer-p-color);
+}
+
+.copyright-container a {
+    color: var(--special-color);
 }
 
 /* End footer section */

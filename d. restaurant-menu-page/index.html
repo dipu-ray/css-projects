@@ -32,7 +32,9 @@
         <nav class="navbar">
             <!-- Navbar logo - left section -->
             <div class="nav-logo">
-                <img src="assets/images/logo.png" alt="Resta Logo Image">
+                <a href="#home">
+                    <img src="assets/images/logo.png" alt="Resta Logo Image">
+                </a>
             </div>
 
             <!-- Navbar link - middle section -->
@@ -75,7 +77,7 @@
 
     <main>
         <!-- Heading slider section -->
-        <section class="introduction-section">
+        <section class="introduction-section" id="home">
             <div class="slider-container">
                 <!-- Slider left and right button container -->
                 <div class="buttons">
@@ -150,7 +152,7 @@
         </section>
 
         <!-- Delicious food section -->
-        <section class="delicious-f-section padding-y">
+        <section class="delicious-f-section padding-y" id="menu">
             <div class="container">
                 <h1 class="section-heading center">Delicious Food For You</h1>
                 <!-- Food list container -->
@@ -312,7 +314,7 @@
                     </div>
 
                     <!-- Forms container -->
-                    <div class="forms">
+                    <div class="forms" id="book-table">
                         <div class="form-heading">
                             <h2>Book a Table</h2>
                         </div>
@@ -374,12 +376,12 @@
 
     <footer class="footer">
         <!-- Footer top section -->
-        <section class="top-section">
+        <section class="top-section container padding-y">
+            <!-- Left container -->
             <div class="left-container">
                 <div class="logo">
                     <a href="#home">
-                        <img src="" alt="">
-                        Resta
+                        <img src="assets/images/footer_logo.png" alt="Resta Logo">
                     </a>
                 </div>
                 <div class="content">
@@ -388,14 +390,15 @@
                     <a href="#x">contact@carpenter.com</a>
                 </div>
                 <div class="icons">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <a href="#x"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#x"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#x"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#x"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#x"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
 
+            <!-- Middle container -->
             <div class="middle-container">
                 <h2>Useful Links</h2>
                 <div class="use-links">
@@ -404,22 +407,25 @@
                     <a href="#x">Blog</a>
                 </div>
             </div>
+
+            <!-- Right container -->
             <div class="right-container">
                 <h2>Subscribe</h2>
                 <div class="input-btn">
-                    <input type="text">
-                    <a href="#x">Subscribe</a>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your mail" required>
+                    <a class="subs-btn" href="#x">Subscribe</a>
                 </div>
                 <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
             </div>
         </section>
 
-        <!-- Horizontal bar -->
-        <div class="footer-hr-bar"></div>
-
         <!-- Footer bottom section -->
-        <section class="bottom-section">
-            <div>
+        <section class="bottom-section container">
+            <!-- Horizontal bar -->
+            <div class="footer-hr-bar"></div>
+
+            <!-- Copyright container -->
+            <div class="copyright-container">
                 Copyright ©2026 All rights reserved | This template is made with &#9829; by <a href="#x">Colorlib</a>
             </div>
         </section>
