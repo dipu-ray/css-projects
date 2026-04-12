@@ -452,13 +452,13 @@ img {
 
 .book-table .img {
     width: 100%;
-    height: 50vh;
+    height: 480px;
 }
 
 .book-table .forms {
     background-color: var(--special-color);
     width: 100%;
-    height: 50vh;
+    height: 480px;
     padding: 35px 40px;
 }
 
@@ -562,7 +562,8 @@ select {
     z-index: 1;
 }
 
-.footer a, i {
+.footer a,
+i {
     color: var(--white-color);
 }
 
@@ -714,3 +715,308 @@ footer p {
 }
 
 /* End footer section */
+
+
+
+
+
+/* Responsive Design */
+/* Responsive for Desktop */
+@media screen and (max-width: 1350px) {
+
+    /* Natus container */
+    .natus-container {
+        gap: 0;
+    }
+
+    /* Natus right container */
+    .natus-right {
+        left: 0;
+    }
+
+    .natus-right .big-img {
+        width: 100%;
+    }
+}
+
+/* Responsive for Laptop */
+@media screen and (max-width: 1150px) {
+
+    /* Custom classes */
+    .container {
+        width: 800px;
+    }
+
+    /* Natus container */
+    .natus-container {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    /* Natus left container */
+    .natus-left {
+        width: 100%;
+    }
+
+    /* Natus right container */
+    .natus-right {
+        width: 100%;
+        text-align: right;
+    }
+
+    .natus-right .big-img {
+        width: 60%;
+    }
+
+    .absolute-image {
+        left: -0;
+    }
+
+    /* Delicious food section */
+    .food-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reservation section */
+    .book-table {
+        flex-direction: column;
+    }
+
+    .book-table .img {
+        width: 100%;
+        height: 480px;
+    }
+
+    .book-table .img img {
+        object-fit: cover;
+    }
+
+    /* Footer top section */
+    .top-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* Left container */
+    .left-container {
+        width: 50%;
+    }
+
+    .left-container .content {
+        width: 100%;
+        margin: 10px 0 20px;
+    }
+
+    /* Middle container */
+    .middle-container {
+        width: 50%;
+    }
+
+    .middle-container .use-links {
+        margin-top: 10px;
+        gap: 5px;
+    }
+
+    /* Right container */
+    .right-container {
+        width: 50%;
+    }
+
+    .right-container .input-btn {
+        margin: 20px 0 15px;
+    }
+}
+
+/* Responsive for Tablet */
+@media screen and (max-width: 850px) {
+
+    /* Custom classes */
+    .container {
+        width: 500px;
+    }
+
+    /* Start header section */
+    .navbar {
+        height: 200px;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    /* Navbar logo */
+    .nav-logo {
+        width: 20%;
+    }
+
+    /* Navbar right section */
+    .nav-r-btn a {
+        margin-right: 0;
+    }
+
+    /* Slider images container */
+    .slider-container .slider h1 {
+        font-size: 3rem;
+        width: 70%;
+    }
+
+    /* Natus right container */
+    .natus-right .big-img {
+        width: 100%;
+    }
+
+    /* Author container */
+    .author {
+        gap: 100px;
+        flex-direction: column;
+    }
+
+    /* Left container */
+    .left-container {
+        width: 100%;
+    }
+
+    /* Middle container */
+    .middle-container {
+        width: 100%;
+    }
+
+    /* Right container */
+    .right-container {
+        width: 70%;
+    }
+}
+
+/* Responsive for Mobile */
+@media screen and (max-width: 550px) {
+
+    /* Custom classes */
+    .container {
+        width: 400px;
+    }
+
+    /* Navbar logo */
+    .nav-logo {
+        width: 30%;
+    }
+
+    /* Slider images container */
+    .slider-container .slider h1 {
+        font-size: 2.5rem;
+    }
+
+    .slider-container .slider .v-btn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+
+    /* Natus container */
+    .mini-container {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .absolute-image {
+        left: 40px;
+        width: 80%;
+    }
+
+    /* Reservation section */
+    .book-table .img {
+        height: 300px;
+    }
+
+    .book-table .forms {
+        height: 100%;
+    }
+
+    .form-inputs .four-inputs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 30px;
+    }
+
+    .address-reserve {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .address-reserve .a-r-container {
+        width: 100%;
+    }
+
+    /* Footer section */
+    .top-section {
+        padding: 50px 0;
+    }
+
+    /* Right container */
+    .right-container {
+        width: 90%;
+    }
+}
+
+/* Responsive for Small Mobile */
+@media screen and (max-width: 450px) {
+
+    /* Navbar Section */
+    .nav-links .nl-ul {
+        gap: 20px;
+    }
+}
+
+/* Responsive for Extra Small Mobile */
+@media screen and (max-width: 400px) {
+
+    /* Custom classes */
+    .container {
+        width: 330px;
+    }
+
+    /* Navbar Section */
+    .nav-links .nl-ul {
+        gap: 10px;
+    }
+
+    .navbar {
+        height: 160px;
+    }
+
+    /* Slider images container */
+    .slider-container .slider h1 {
+        font-size: 2rem;
+    }
+
+    /* Main all section headings */
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    /* Delicious food section */
+    .food-items {
+        gap: 55px;
+    }
+
+    .food-items .img img {
+        width: 150%;
+    }
+
+    .food-items h4 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        ;
+    }
+
+    .food-items span {
+        font-size: 1.2rem;
+    }
+
+    /* Customer section */
+    .customer-heading-p h1 {
+        font-size: 2rem;
+    }
+
+    /* Reservation section */
+    .forms h2 {
+        font-size: 1.5rem;
+    }
+}
