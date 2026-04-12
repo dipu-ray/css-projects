@@ -24,12 +24,13 @@ The purpose of this project is to develop my CSS coding skills better.
 ## 📂 Project Structure
 
 ```
-restaurant-menu-page/
-│── assets/
-    └── images/
-│── index.html
-│── style.css
-
+├── restaurant-menu-page/
+│   └── assets/
+│   │    └── background-images/
+│   │    └── images/
+│   │    │    └── food-list/
+│   └── index.html
+│   └── style.css
 ```
 
 ## 📸 Screenshot
