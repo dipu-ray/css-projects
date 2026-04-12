@@ -44,7 +44,7 @@ img {
 
 
 
-/* Start Navbar Section */
+/* Start header section */
 .navbar {
     display: flex;
     align-items: center;
@@ -121,13 +121,13 @@ img {
     background-color: var(--white-color);
 }
 
-/* End Navbar Section */
+/* End header section */
 
 
 
 
 
-/* Start Main Section */
+/* Start main section */
 .section-heading {
     font-size: 3.1rem;
     font-weight: 500;
@@ -430,6 +430,7 @@ img {
     position: absolute;
     bottom: -120px;
     right: 80px;
+    z-index: -1;
 }
 
 .third-r-bg {
@@ -546,20 +547,21 @@ select {
     font-size: .9rem;
 }
 
-/* End Main Section */
+/* End main section */
 
 
 
 
 
-/* Start Footer Section */
+/* Start footer section */
 .footer {
     background-color: var(--bg-color-1);
     color: var(--white-color);
+    z-index: 1;
 }
 
 .footer a, i {
     color: var(--white-color);
 }
 
-/* End Footer Section */
+/* End footer section */
