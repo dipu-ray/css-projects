@@ -1,0 +1,32 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --poppins-font: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--poppins-font);
+}
+
+.reg-section {
+    display: flex;
+}
+
+/* Left Container */
+.left-container {
+    width: 50%;
+    background-color: red;
+}
+
+/* Right Container */
+.right-container {
+    width: 50%;
+    background-color: green;
+}
