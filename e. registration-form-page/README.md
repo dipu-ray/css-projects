@@ -27,9 +27,7 @@ The purpose of this project is to develop my CSS coding skills better.
 ```
 ├── registration-form-page/
 │   └── assets/
-│   │    └── abc/
-│   │    └── abc/
-│   │    │    └── abc/
+│   │    └── images/
 │   └── index.html
 │   └── style.css
 ```
