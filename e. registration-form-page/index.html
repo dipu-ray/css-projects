@@ -13,16 +13,58 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
     <!-- To add my css file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="reg-section">
+    <section class="reg-section container">
 
         <!-- Left Container -->
         <div class="left-container">
             <h1>Create Your Account</h1>
+            <p>Welcome back! Please enter your details</p>
+            <a href="#x">
+                <img src="assets/images/google.png" alt="Google Icon">
+                Sign up with Google
+            </a>
+            <div>
+                <span>OR</span>
+            </div>
+
+            <!-- Registration form -->
+            <form action="" enctype="multipart/form-data">
+                <div>
+                    <label for="full_name">Name</label>
+                    <input type="text" name="full_name" id="full_name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" value="*******">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+                <div>
+                    <label for="password">Retype Password</label>
+                    <input type="password" name="password" id="password" value="*******">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+                <div>
+                    <input type="checkbox" name="conditions" id="conditions">
+                    <label for="conditions">I accepted all terms and conditions.</label>
+                </div>
+                <button>Registration</button>
+            </form>
+            <div>
+                <p>Already have an account?</p>
+                <a href="#x">Sign in</a>
+            </div>
         </div>
 
         <!-- Right Container -->
@@ -31,6 +73,7 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa sint repellendus doloribus animi earum
                 explicabo corrupti aliquid ad id quos sunt enim, vero excepturi sequi. Nam beatae repudiandae harum
                 dolorem impedit minima ipsam modi numquam.</p>
+            <img src="assets/images/sales-report.png" alt="Sales Report Graph or Image">
         </div>
     </section>
 </body>

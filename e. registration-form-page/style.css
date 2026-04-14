@@ -1,6 +1,10 @@
 :root {
     --white-color: #ffffff;
     --black-color: #000000;
+    --bg-color: #dfe1e6;
+    --bg-color2: #1b1d1f;
+    --text-color1: #4a4a4a;
+    --text-color2: #fcffff;
     --poppins-font: "Poppins", sans-serif;
 }
 
@@ -13,20 +17,38 @@
 
 body {
     font-family: var(--poppins-font);
+    background-color: var(--bg-color);
+}
+
+img {
+    width: 100%;
+}
+
+a img {
+    width: 30px;
+}
+
+/* Custom class */
+.container {
+    width: 1200px;
+    margin: 80px auto;
 }
 
 .reg-section {
     display: flex;
+    background-color: var(--white-color);
+    text-align: center;
 }
 
 /* Left Container */
 .left-container {
     width: 50%;
-    background-color: red;
+    color: var(--text-color1);
 }
 
 /* Right Container */
 .right-container {
     width: 50%;
-    background-color: green;
+    background-color: var(--bg-color2);
+    color: var(--text-color2);
 }
