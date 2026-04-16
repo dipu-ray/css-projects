@@ -1,0 +1,9 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --poppins-font: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--poppins-font);
+}
