@@ -23,6 +23,10 @@ There I'll make lot's of **CSS Projects**. To make websites with HTML and CSS fo
 │   └── assets/
 │   └── index.html
 │   └── style.css
+├── f. online_learning_platform/
+│   └── assets/
+│   └── index.html
+│   └── style.css
 ```
 
 ## 🔧 Built With
