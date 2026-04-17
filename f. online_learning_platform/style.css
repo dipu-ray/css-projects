@@ -1,9 +1,26 @@
 :root {
     --white-color: #ffffff;
     --black-color: #000000;
+    --dark-color: #0b1121;
+    --blue-color: #0285c7;
+    --blue-color2: #39bef7;
+    --heading-color: #e1e8f0;
+    --p-color: #93a2b8;
     --poppins-font: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
     font-family: var(--poppins-font);
+    color: var(--p-color);
+    background: radial-gradient(circle at center, #1a2a44 0%, #0b0f19 100%);
+    min-height: 100vh;
+    margin: 0;
 }
