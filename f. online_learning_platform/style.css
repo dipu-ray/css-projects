@@ -26,12 +26,21 @@ body {
     margin: 0;
 }
 
+img {
+    width: 10%;
+}
+
 /* Custom class */
 .container {
     width: 1300px;
     margin: 0 auto;
 }
 
+
+
+
+
+/* Start Header Element */
 .navbar {
     background-color: rgba(11, 17, 32, .8);
     border-bottom: 1px solid #93a2b828;
@@ -101,7 +110,7 @@ body {
 /* Header content */
 .header-content {
     text-align: center;
-    margin: 200px auto;
+    margin: 280px auto 350px;
 }
 
 .header-content h1 {
@@ -130,3 +139,27 @@ body {
 .header-content .exp-btn:hover {
     background-color: var(--blue-color2);
 }
+
+/* End Header Element */
+
+
+
+
+
+/* Start Main Element */
+.tutorials-section {
+    background-color: #0f1729;
+    display: flex;
+}
+
+/* Tutorials content */
+.tutorials-content {
+    width: 37%;
+}
+
+/* Tutorials box's */
+.tutorials-box {
+    width: 63%;
+}
+
+/* End Main Element */
