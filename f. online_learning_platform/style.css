@@ -7,6 +7,7 @@
     --heading-color: #e1e8f0;
     --p-color: #93a2b8;
     --poppins-font: "Poppins", sans-serif;
+    --transition: all ease .4s;
 }
 
 * {
@@ -23,4 +24,109 @@ body {
     background: radial-gradient(circle at center, #1a2a44 0%, #0b0f19 100%);
     min-height: 100vh;
     margin: 0;
+}
+
+/* Custom class */
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: rgba(11, 17, 32, .8);
+    border-bottom: 1px solid #93a2b828;
+    padding: 15px 0;
+}
+
+/* Navbar container */
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar logo */
+.nav-logo a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: .7rem;
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: .9rem;
+}
+
+.nav-logo a img {
+    width: 40px;
+    border: 1px solid var(--blue-color);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/* Navbar link */
+.nav-links ul {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links ul li .nav-btn {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--white-color);
+    background-color: #93a2b800;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: var(--transition);
+}
+
+.nav-links ul li .nav-btn:hover {
+    background-color: #93a2b828;
+}
+
+/* Log in button */
+.nav-links ul li .login-btn {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.nav-links ul li .login-btn:hover {
+    background-color: var(--blue-color2);
+}
+
+/* Header content */
+.header-content {
+    text-align: center;
+    margin: 200px auto;
+}
+
+.header-content h1 {
+    font-size: 72px;
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+.header-content p {
+    font-size: 17px;
+    margin: 30px auto 60px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.header-content .exp-btn {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 18px 80px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.header-content .exp-btn:hover {
+    background-color: var(--blue-color2);
 }
