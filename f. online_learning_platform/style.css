@@ -6,6 +6,7 @@
     --blue-color2: #39bef7;
     --heading-color: #e1e8f0;
     --p-color: #93a2b8;
+    --border-color: #93a2b828;
     --poppins-font: "Poppins", sans-serif;
     --transition: all ease .4s;
 }
@@ -20,14 +21,10 @@
 
 body {
     font-family: var(--poppins-font);
-    color: var(--p-color);
-    background: radial-gradient(circle at center, #1a2a44 0%, #0b0f19 100%);
-    min-height: 100vh;
-    margin: 0;
 }
 
 img {
-    width: 10%;
+    width: 20%;
 }
 
 /* Custom class */
@@ -41,11 +38,18 @@ img {
 
 
 /* Start Header Element */
+header {
+    color: var(--p-color);
+    background: radial-gradient(circle at center, #1a2a44 0%, #0b0f19 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+
 .navbar {
     background-color: rgba(11, 17, 32, .8);
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
-    border-bottom: 1px solid #93a2b828;
+    border-bottom: 1px solid var(--border-color);
     padding: 15px 0;
     position: fixed;
     top: 0;
@@ -116,7 +120,7 @@ img {
 /* Header content */
 .header-content {
     text-align: center;
-    margin: 280px auto 350px;
+    padding-top: 350px;
 }
 
 .header-content h1 {
@@ -153,9 +157,30 @@ img {
 
 
 /* Start Main Element */
+section h1 {
+    font-size: 2.3rem;
+    color: var(--heading-color);
+}
+
+section p {
+    font-size: 17px;
+    color: var(--p-color);
+}
+
+section .colorful {
+    color: var(--blue-color2);
+}
+
+/* Tutorials section */
 .tutorials-section {
     background-color: #0f1729;
+    border-top: 1px solid var(--border-color);
+}
+
+.tutorials-container {
     display: flex;
+    align-items: center;
+    padding: 80px 0;
 }
 
 /* Tutorials content */
@@ -163,9 +188,87 @@ img {
     width: 37%;
 }
 
+.tutorials-content p {
+    width: 86%;
+    margin-top: 15px;
+}
+
+.tutorials-content img {
+    width: 25%;
+}
+
 /* Tutorials box's */
 .tutorials-box {
     width: 63%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.tutorials-box .box {
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 30px;
+    transition: var(--transition);
+}
+
+.tutorials-box .box:hover {
+    transform: scale(1.05);
+}
+
+/* Box's images */
+.tutorials-box .box img {
+    width: 25%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.tutorials-box .box .js-img {
+    background-color: #facc14;
+}
+
+.tutorials-box .box .dom-img {
+    background-color: #fa7516;
+}
+
+.tutorials-box .box .react-img {
+    background-color: #39bef7;
+}
+
+.tutorials-box .box .node-img {
+    background-color: #324154;
+}
+
+.tutorials-box .box .tailwind-img {
+    background-color: #f7fafc;
+}
+
+.tutorials-box .box h4 {
+    color: var(--heading-color);
+    font-weight: 600;
+    font-size: .95rem;
+}
+
+.tutorials-box .box p {
+    margin: 10px 0 20px;
+    font-size: .8rem;
+}
+
+.tutorials-box .box a {
+    color: var(--blue-color2);
+    border: 1px solid var(--blue-color2);
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.tutorials-box .box a:hover {
+    background-color: var(--blue-color2);
+    color: var(--white-color);
 }
 
 /* End Main Element */
