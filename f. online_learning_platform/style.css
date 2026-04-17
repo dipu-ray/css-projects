@@ -43,8 +43,14 @@ img {
 /* Start Header Element */
 .navbar {
     background-color: rgba(11, 17, 32, .8);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
     border-bottom: 1px solid #93a2b828;
     padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* Navbar container */
