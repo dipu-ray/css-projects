@@ -163,23 +163,3 @@ img {
 }
 
 /* End Main Element */
-
-
-
-/* Start Main Element */
-.tutorials-section {
-    background-color: #0f1729;
-    display: flex;
-}
-
-/* Tutorials content */
-.tutorials-content {
-    width: 37%;
-}
-
-/* Tutorials box's */
-.tutorials-box {
-    width: 63%;
-}
-
-/* End Main Element */
