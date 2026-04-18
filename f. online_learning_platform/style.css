@@ -115,6 +115,21 @@ header {
     background-color: var(--blue-color2);
 }
 
+/* Display on mobile or tab size */
+.nav-links ul .mobile-menu {
+    display: none;
+}
+
+.nav-links ul .mobile-menu li a {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.nav-links ul .mobile-menu li a:hover {
+    color: var(--blue-color2);
+}
+
 /* Header content */
 .header-content {
     text-align: center;
@@ -476,6 +491,23 @@ footer {
 }
 
 /* Logo with web link */
+.footer-logo a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: 0.9rem;
+}
+
+.footer-logo a img {
+    width: 40px;
+    border: 1px solid var(--blue-color);
+    border-radius: 50px;
+    padding: 5px;
+}
+
 .logo-web p {
     margin-top: 10px;
     font-size: .8rem;
@@ -562,7 +594,7 @@ footer {
 }
 
 .bottom-section .f-b-links a {
-    font-size: .85rem;
+    font-size: .8rem;
     color: var(--p-color);
     transition: var(--transition);
 }
@@ -572,3 +604,226 @@ footer {
 }
 
 /* End Footer Element */
+
+
+
+
+
+/* Responsive design */
+/* Responsive for laptop size */
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 92%;
+    }
+}
+
+/* Responsive for tab size */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 75%;
+    }
+
+    /* Navbar section */
+    .nav-links ul li .nav-btn {
+        display: none;
+    }
+
+    .nav-links ul li .login-btn {
+        display: none;
+    }
+
+    .nav-links ul .mobile-menu {
+        display: inline;
+    }
+
+    /* Header content */
+    .header-content h1 {
+        font-size: 60px;
+    }
+
+    .header-content p {
+        width: 90%;
+    }
+
+    /* Main element content */
+    section h1 {
+        font-size: 2.1rem;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    /* Tutorials section */
+    .tutorials-container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .tutorials-content {
+        width: 100%;
+    }
+
+    .tutorials-content p {
+        width: 100%;
+    }
+
+    .tutorials-box {
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    /* Community section */
+    .dev-card {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .iframe-content {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .small-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .cards img {
+        width: 70%;
+    }
+
+    /* Courses section */
+    .courses-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer elements */
+    footer {
+        padding: 60px 0 20px;
+    }
+
+    /* Top section */
+    .top-section {
+        border-bottom: none;
+    }
+
+    .footer-logo a {
+        justify-content: center;
+    }
+
+    .logo-web p {
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Bottom section */
+    .bottom-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bottom-section .f-b-links {
+        gap: 12px;
+    }
+}
+
+/* Responsive for small tab size */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .dev-card {
+        width: 100%;
+    }
+
+    .small-cards {
+        width: 100%;
+    }
+}
+
+/* Responsive for mobile size */
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+
+    /* Header element content */
+    .header-content {
+        padding-top: 250px;
+        text-align: left;
+    }
+
+    .header-content h1 {
+        font-size: 60px;
+        line-height: 4rem;
+    }
+
+    .header-content p {
+        font-size: 16px;
+        margin: 30px 0 60px;
+        width: 85%;
+    }
+
+    .header-content .exp-btn {
+        padding: 10px 40px;
+        font-size: 1rem;
+    }
+
+    /* Main element content */
+    section h1 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    .iframe-content {
+        height: 250px;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    /* Footer element content */
+    .footer-links .n-link {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-links .n-link a {
+        font-size: .8rem;
+    }
+
+    .bottom-section .f-b-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bottom-section .f-b-links a {
+        font-size: .8rem;
+    }
+
+    .bottom-section .copyright p {
+        font-size: .8rem;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
