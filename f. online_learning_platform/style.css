@@ -465,5 +465,110 @@ section .colorful {
 /* Start Footer Element */
 footer {
     background: linear-gradient(to left, #0b1221, #0f1729);
+    color: var(--p-color) !important;
+    border-top: 1px solid var(--border-color);
+    padding: 80px 0 40px;
 }
+
+/* Top section */
+.top-section {
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Logo with web link */
+.logo-web p {
+    margin-top: 10px;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.logo-web p a {
+    color: var(--p-color);
+    transition: var(--transition);
+}
+
+.logo-web p a:hover {
+    color: var(--blue-color2);
+}
+
+/* Footer links */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 20px;
+}
+
+.footer-links .n-link {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links .n-link a {
+    color: var(--p-color);
+    font-size: .85rem;
+    transition: var(--transition);
+}
+
+.footer-links .n-link a:hover {
+    color: var(--blue-color2);
+}
+
+.footer-links .s-link {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links .s-link a {
+    color: var(--blue-color);
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.footer-links .s-link a:hover {
+    color: var(--blue-color2);
+}
+
+.footer-links .s-link a i {
+    transition: var(--transition);
+}
+
+.footer-links .s-link a i:hover {
+    transform: scale(1.1);
+}
+
+/* Center section */
+.payment-section {
+    margin: 15px auto;
+}
+
+.payment-section img {
+    width: 100%;
+}
+
+/* Bottom section */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-section .copyright p {
+    font-size: .8rem;
+}
+
+.bottom-section .f-b-links {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-section .f-b-links a {
+    font-size: .85rem;
+    color: var(--p-color);
+    transition: var(--transition);
+}
+
+.bottom-section .f-b-links a:hover {
+    color: var(--blue-color2);
+}
+
 /* End Footer Element */
