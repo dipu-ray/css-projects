@@ -28,7 +28,8 @@ The purpose of this project is to develop my CSS coding skills better.
 ```
 ├── online_learning_platform/
 │   └── assets/
-│   │    └── abc/
+│   │    └── images/
+│   │    └── svg/
 │   └── index.html
 │   └── style.css
 ```
